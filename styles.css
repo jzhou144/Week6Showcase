@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    background-color: #f0f4f8;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.media-item {
+    background-color: #ff020260;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.media-item h2 {
+    margin-top: 0;
+}
+
+.description {
+    font-size: em;
+}
+
+.attribution {
+    font-size: 0.8em;
+    color: #0b330d;
+}
